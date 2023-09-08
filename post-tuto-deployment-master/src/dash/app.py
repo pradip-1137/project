@@ -34,7 +34,7 @@ app.scripts.append_script({
 
 app.title = 'Reviews AI2Prod'
 
-companies = pd.read_csv('./csv/companies_forbes.csv')
+companies = pd.read_csv('./csv/companies_forbes.csv (1)')
 random_reviews = pd.read_csv('./csv/random_reviews.csv')
 
 app.layout = html.Div([
